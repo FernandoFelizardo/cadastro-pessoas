@@ -1,3 +1,22 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Data De Nascimento</th>
+                <th>Ativa</th>
+            </tr>
+        </thead>
+    </table>
+
+
+{% endblock content %}
+
+
+<!--
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,8 +28,10 @@
 </head>
 <body>
         <ul>
+            <li><a href="{% url 'home'%}">Home</a></li>
             <li><a href="{% url 'pessoa.index' %}">Pessoas</a> </li>
-            
-        </ul>
+         </ul>
 </body>
 </html>
+
+-->
